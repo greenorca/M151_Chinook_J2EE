@@ -9,9 +9,20 @@ import java.util.List;
 
 import com.chinook.model.Album;
 
-
+/**
+ * handles DB connection for album table
+ * @author user
+ *
+ */
 public class AlbumConnector {
 
+	/**
+	 * returns all albums in DB that belong to the given artist
+	 * @param conn
+	 * @param artistId
+	 * @return
+	 * @throws SQLException
+	 */
 	public static List<Album> queryAlbums(Connection conn, int artistId) throws SQLException {
 	      String sql = "SELECT AlbumId, Title FROM Album WHERE ArtistId=?";
 	 

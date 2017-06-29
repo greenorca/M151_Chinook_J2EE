@@ -17,7 +17,8 @@ import com.chinook.controller.MyUtils;
 import com.chinook.model.*;
 
 /**
- * Servlet implementation class ArtistServlet
+ * Servlet implementation class AlbumServlet
+ * request is supposed to contain a GET parameter idArtist, on which the album list will be filtered 
  */
 @WebServlet(urlPatterns={"/albums"})
 public class AlbumServlet extends HttpServlet {
@@ -39,6 +40,7 @@ public class AlbumServlet extends HttpServlet {
 		 
         String errorString = null;
         List<Album> list = null;
+        //fetch the GET parameter
         int idArtist = Integer.parseInt(request.getParameter("idArtist"));
         System.out.println("Am I getting the request params right: "+idArtist);
         try {

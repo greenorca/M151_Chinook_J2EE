@@ -1,5 +1,10 @@
 package com.chinook.model;
 
+/**
+ * simple POJO class for Artist attributes
+ * @author user
+ *
+ */
 public class Artist {
 
 	private int uid;

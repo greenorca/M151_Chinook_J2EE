@@ -1,5 +1,10 @@
 package com.chinook.model;
 
+/**
+ * simple POJO class for album attributes
+ * @author user
+ *
+ */
 public class Album {
 	int idAlbum;
 	int idArtist;

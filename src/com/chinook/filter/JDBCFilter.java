@@ -16,7 +16,12 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 
 import com.chinook.controller.*;
- 
+
+/**
+ * tracks and maps request URLs to their servlets 
+ * @author user
+ *
+ */
 @WebFilter(filterName = "jdbcFilter", urlPatterns = { "/*" })
 public class JDBCFilter implements Filter {
  
