@@ -1,0 +1,10 @@
+header {
+	background: #E0E0E0; 
+	height: 55px; 
+	padding: 5px;	
+}
+header .user_info{
+	float: right; 
+	padding: 10px; 
+	text-align: right;
+}
