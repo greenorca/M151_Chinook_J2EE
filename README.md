@@ -54,7 +54,7 @@ kill *6600*
 
 ![Tomcat Runtime konfigurieren](docs/images/tomcat_project_config.png)
 
-### Install JDBC (on Debian / Ubuntu)
+### Install JDBC (on Debian / Ubuntu) if needed
 
 sudo apt-get install libmysql-java
 
