@@ -14,7 +14,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
- 
+
 import com.chinook.controller.*;
  
 @WebFilter(filterName = "jdbcFilter", urlPatterns = { "/*" })
@@ -54,8 +54,8 @@ public class JDBCFilter implements Filter {
  
        // Key: servletName.
        // Value: ServletRegistration
-       Map<String, ? extends ServletRegistration> servletRegistrations = request.getServletContext()
-               .getServletRegistrations();
+       Map<String, ? extends ServletRegistration> servletRegistrations = 
+    		   request.getServletContext().getServletRegistrations();
  
  
        // Collection of all servlet in your webapp.
@@ -123,5 +123,7 @@ public class JDBCFilter implements Filter {
        }
  
    }
+
+
  
 }

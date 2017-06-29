@@ -32,12 +32,12 @@
 		<link>
 			<name>WebContent/WEB-INF/lib/jstl-1.2.jar</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/jstl-1.2.jar</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/Dropbox/WISS/Modul_151/vorbereitung_sven/jstl-1.2.jar</locationURI>
 		</link>
 		<link>
 			<name>WebContent/WEB-INF/lib/jstl-api-1.2.jar</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/jstl-api-1.2.jar</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/Dropbox/WISS/Modul_151/vorbereitung_sven/jstl-api-1.2.jar</locationURI>
 		</link>
 		<link>
 			<name>WebContent/WEB-INF/lib/mysql-connector-java.jar</name>

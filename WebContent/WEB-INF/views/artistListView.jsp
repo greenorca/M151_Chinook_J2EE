@@ -32,7 +32,7 @@
        </c:forEach>
     </table>
  
-    <a href="createProduct" >Create Product</a>
+    <!-- a href="createProduct" >Create Product</a-->
      <jsp:include page="_footer.jsp"></jsp:include>
  
   </body>

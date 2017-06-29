@@ -13,7 +13,7 @@ import com.chinook.model.Artist;
 public class ArtistConnector {
 
 	public static List<Artist> queryArtists(Connection conn) throws SQLException {
-	      String sql = "SELECT ArtistId, Name FROM artist";
+	      String sql = "SELECT ArtistId, Name FROM Artist";
 	 
 	      PreparedStatement pstm = (PreparedStatement) conn.prepareStatement(sql);
 	 
@@ -32,7 +32,7 @@ public class ArtistConnector {
 	  }
 	 
 	  public static Artist findArtists(Connection conn, int code) throws SQLException {
-	      String sql = "Select ArtistId, Name FROM artist where a.ArtistName=?";
+	      String sql = "Select ArtistId, Name FROM Artist where a.ArtistName=?";
 	 
 	      PreparedStatement pstm = (PreparedStatement) conn.prepareStatement(sql);
 	      pstm.setLong(1, code);

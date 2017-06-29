@@ -8,13 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.chinook.model.Album;
-import com.chinook.model.Artist;
 
 
 public class AlbumConnector {
 
 	public static List<Album> queryAlbums(Connection conn, int artistId) throws SQLException {
-	      String sql = "SELECT AlbumId, Title FROM album WHERE ArtistId=?";
+	      String sql = "SELECT AlbumId, Title FROM Album WHERE ArtistId=?";
 	 
 	      PreparedStatement pstm = (PreparedStatement) conn.prepareStatement(sql);
 	      pstm.setInt(1, artistId);

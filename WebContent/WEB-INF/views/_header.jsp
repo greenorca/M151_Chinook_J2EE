@@ -4,7 +4,7 @@
 <html>
   <head>
      <meta charset="UTF-8">
-     <title>Home Page</title>
+     <title>Chinook Music DB with JSP Webinterface</title>
      <!--link href="main.css" rel="stylesheet"-->
      <style type="text/css">
     	<%@include file="../css/main.css" %>
@@ -14,7 +14,7 @@
   
   <header>
   <div style="float: left">
-     <h1>My Site</h1>
+     <h1>Chinook Music DB with JSP Webinterface</h1>
   </div>
  
   <div class="user_info">
