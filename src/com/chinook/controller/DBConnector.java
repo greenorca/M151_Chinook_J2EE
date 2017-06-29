@@ -25,6 +25,7 @@ public class DBConnector {
 		Context ctx = new InitialContext();
 		DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/mydatabase");
 		Connection c = ds.getConnection();
+		System.out.println("Created a new DB Connection...");
 		return c;
 
 	}
